@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
     document.body.classList.add("loaded");
 });
 
-////// addEventListener sur des elements multiples //////
+////// addEventListener //////
 
 const addEventOnElements = function (elements, eventType, callback) {
     for (let i = 0, len = elements.length; i < len; i++){
@@ -38,12 +38,25 @@ const header = document.querySelector("[data-header]");
 let lastScrollPos = 0;
 
 const hideHeader = function() {
+
+    const isScrollBottom = lastScrollPos < window.scrollY;
+
+    console.log(isScrollBottom); // ELLEMENT A NE PAS GARDER
+
+    if (isScrollBottom) {
+        header.classList.add("hide");
+    }else {
+        header.classList.remove("hide");
+    }
+
+    lastScrollPos = window.screenY;
 }
 
 window.addEventListener("scroll", function() {
-    if (window.screenY >= 50) {
+    if (window.scrollY >= 50) {
         header.classList.add("active");
     } else {
         header.classList.remove("active");
     }
+    hideHeader();
 })
