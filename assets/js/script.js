@@ -41,8 +41,6 @@ const hideHeader = function() {
 
     const isScrollBottom = lastScrollPos < window.scrollY;
 
-    console.log(isScrollBottom); // ELLEMENT A NE PAS GARDER
-
     if (isScrollBottom) {
         header.classList.add("hide");
     }else {
