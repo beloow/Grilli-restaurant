@@ -31,32 +31,32 @@ const toggleNavbar = function () {
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
-////// header //////
+// ==================
+// ===== header =====
+// ==================
 
 const header = document.querySelector("[data-header]");
 
 let lastScrollPos = 0;
 
-// const hideHeader = function() {
+const hideHeader = function () {
+  const isScrollBottom = lastScrollPos < window.scrollY;
+  if (isScrollBottom) {
+    header.classList.add("hide");
+  } else {
+    header.classList.remove("hide");
+  }
 
-//     const isScrollBottom = lastScrollPos > window.scrollY;
+  lastScrollPos = window.scrollY;
+}
 
-//     if (isScrollBottom) {
-//         header.classList.add("hide");
-//     }else {
-//         header.classList.remove("hide");
-//     }
-
-//     lastScrollPos = window.screenY;
-// };
-
-window.addEventListener("scroll", function() {
-    if (window.scrollY > 50) {
-        header.classList.add("active");
-        // hideHeader();
-    } else {
-        header.classList.remove("active");
-    }
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 50) {
+    header.classList.add("active");
+    hideHeader();
+  } else {
+    header.classList.remove("active");
+  }
 });
 
 // =================
