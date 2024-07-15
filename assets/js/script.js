@@ -37,23 +37,23 @@ const header = document.querySelector("[data-header]");
 
 let lastScrollPos = 0;
 
-const hideHeader = function() {
+// const hideHeader = function() {
 
-    const isScrollBottom = lastScrollPos > window.scrollY;
+//     const isScrollBottom = lastScrollPos > window.scrollY;
 
-    if (isScrollBottom) {
-        header.classList.add("hide");
-    }else {
-        header.classList.remove("hide");
-    }
+//     if (isScrollBottom) {
+//         header.classList.add("hide");
+//     }else {
+//         header.classList.remove("hide");
+//     }
 
-    lastScrollPos = window.screenY;
-};
+//     lastScrollPos = window.screenY;
+// };
 
 window.addEventListener("scroll", function() {
     if (window.scrollY > 50) {
         header.classList.add("active");
-        hideHeader();
+        // hideHeader();
     } else {
         header.classList.remove("active");
     }
