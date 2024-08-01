@@ -78,7 +78,7 @@ description.txt
 - [x] Section Feature
 - [x] Section Event
 - [x] Footer
-- [ ] backToTop
+- [x] backToTop
 - [ ] Publish release v1
 
 
