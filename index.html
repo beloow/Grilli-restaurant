@@ -22,13 +22,12 @@
     <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
 </head>
 <body>
-    <!-- PRELOAD -->
+    <!-- Preload -->
     <div class="preload" data-preaload>
         <div class="circle"></div>
         <p class="text">Grilli</p>
     </div>
-
-    <!-- TOPBAR -->
+    <!-- Topbar -->
     <div class="topbar">
         <div class="container">
 
@@ -72,8 +71,7 @@
 
         </div>
     </div>
-
-    <!-- HEADER -->
+    <!-- Header -->
     <header class="header" data-header>
         <div class="container">
 
@@ -104,7 +102,7 @@
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#menus" class="navbar-link hover-underline">
+                        <a href="#menu" class="navbar-link hover-underline">
 
                             <div class="separator"></div>
 
@@ -134,7 +132,7 @@
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#contact" class="navbar-link hover-underline">
+                        <a href="#reservation" class="navbar-link hover-underline">
 
                             <div class="separator"></div>
 
@@ -185,11 +183,11 @@
         </div>
 
     </header>
-
+    <!-- Main Sections -->
     <main>
         <article>
             <!-- Hero -->
-            <section class="hero text-center" aria-label="home" id="home">
+            <section id="home" class="hero text-center" aria-label="home">
 
                 <ul class="hero-slider" data-hero-slider>
 
@@ -285,7 +283,7 @@
                 </a>
             </section>
             <!-- Services -->
-            <section class="section service bg-black-10 text-center" aria-label="service">
+            <section id="services" class="section service bg-black-10 text-center" aria-label="service">
                 <div class="container">
 
                     <p class="section-subtitle label-2">Flavors For Royalty</p>
@@ -365,7 +363,7 @@
                 </div>
             </section>
             <!-- A propos -->
-            <section class="section about text-center" aria-labelledby="about-label" id="about">
+            <section id="about" class="section about text-center" aria-labelledby="about-label">
                 <div class="container">
 
                     <div class="about-content">
@@ -415,7 +413,7 @@
                 </div>
             </section>
             <!-- Plat Special -->
-            <section class="special-dish text-center" aria-labelledby="dish-label">
+            <section id="special-dish" class="special-dish text-center" aria-labelledby="dish-label">
 
                 <div class="special-dish-banner">
                     <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish" class="img-cover">
@@ -456,7 +454,7 @@
 
             </section>
             <!-- Menu -->
-            <section class="section menu" aria-label="menu-label" id="menu">
+            <section id="menu" class="section menu" aria-label="menu-label">
                 <div class="container">
                     <P class="section-subtitle text-center label-2">Special Selection</P>
                     <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
@@ -596,7 +594,7 @@
                 </div>
             </section>
             <!-- Témoignage -->
-            <section class="section testimonial text-center has-bg-image" style="background-image: url('./assets/images/testimonial-bg.jpg');" aria-label="testimonial">
+            <section id="testimonial" class="section testimonial text-center has-bg-image" style="background-image: url('./assets/images/testimonial-bg.jpg');" aria-label="testimonial">
                 <div class="container">
 
                     
@@ -623,7 +621,7 @@
                 </div>
             </section>
             <!-- Reservation -->
-            <section class="reservation">
+            <section id="reservation" class="reservation">
                 <div class="container">
 
                     <div class="form reservation-form bg-black-10">
@@ -741,7 +739,7 @@
                 </div>
             </section>
             <!-- Fonctionnalité -->
-            <section class="section features text-center">
+            <section id="feature" class="section features text-center">
                 <div class="container">
                     <p class="section-subtitle label-2">Why Choose Us</p>
 
@@ -806,7 +804,7 @@
                 </div>
             </section>
             <!-- Evenement -->
-            <section class="section event bg-black-10">
+            <section id="event" class="section event bg-black-10">
                 <div class="container">
 
                     <p class="section-subtitle label-2 text-center">Recent Updates</p>
@@ -867,22 +865,82 @@
             </section>
         </article>
     </main>
+    <!-- footer -->
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg');">
+        <div class="container">
+
+            <div class="footer-top grid-list">
+                <!-- footer branding -->
+                <div class="footer-brand has-before has-after">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="Grilli home">
+                    </a>
+
+                    <address class="body-4">Restaurant St, Delicious City, London 9578, UK</address>
+
+                    <a href="mailto:contact@ryanqueva.fr" class="body-4 contact-link">contact@ryanqueva.fr</a>
+
+                    <a href="tel:+330641257939" class="body-4 contact-link">Booking Request : +33 (0)6.41.25.79.39</a>
+
+                    <p class="body-4">Open : 09:00 am - 01:00 pm</p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+
+                    <p class="title-1">Get News & Offers</p>
+
+                    <p class="label-1">Subscribe us & Get <span class="span">25% Off</span></p>
+
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                            <input type="email" name="email_address" placeholder="Votre mail" autocomplete="email" class="input-field">
+                        </div>
+                        <button class="btn btn-secondary">
+                            <span class="text text-1">Subscribe</span>
+                            <span class="text text-2" aria-hidden="true">Subscribe</span>
+                        </button>
+                    </form>
 
 
+                </div>
+                <!-- Footer nav menu -->
+                <ul class="footer-list">
+                    <li><a href="#home" class="label-2 footer-link hover-underline">Home</a></li>
+                    <li><a href="#menu" class="label-2 footer-link hover-underline">Menus</a></li>
+                    <li><a href="#about" class="label-2 footer-link hover-underline">About Us</a></li>
+                    <li><a href="#testimonial" class="label-2 footer-link hover-underline">Our Chefs</a></li>
+                    <li><a href="#reservation" class="label-2 footer-link hover-underline">Contact</a></li>
+                </ul>
+                <!-- Social link -->
+                <ul class="footer-list">
+                    <li><a href="#" class="label-2 footer-link hover-underline">Facebook</a></li>
+                    <li><a href="#" class="label-2 footer-link hover-underline">Instagram</a></li>
+                    <li><a href="#" class="label-2 footer-link hover-underline">Twitter</a></li>
+                    <li><a href="#" class="label-2 footer-link hover-underline">Youtube</a></li>
+                    <li><a href="#" class="label-2 footer-link hover-underline">Google Map</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Grilli. All Rights Reserved | Starter File used <a href="https://drive.google.com/file/d/1Du1JEKrEAEipP7Js0Y2ddYCYTpez28da/view" target="_blank" class="link">Here</a></p>
+            </div>
+
+        </div>
+    </footer>
     <!-- JS -->
     <script src="./assets/js/script.js"></script>
-
     <!-- Ionicon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 </html>
 
 <!-- ============================================================================================
 Source files were retrieved from codewithsadee's YouTube channel - all rights are reserved to him 
 
-Download starter file here : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblMwQkt4cmszZUJLWjktMU01NzJiQ2ZRU3VjQXxBQ3Jtc0trRzB2eGRlRVI4dWpTaVNYaklRdk1DVmpPWUpsV0VJZWdoSHJBaVZVV29NbHZoVnpCbjVhYzVlbkNkYjRyZEFKbF9SelEwaGVua1RHTmgyMThNLXdRd3ZtbDUyOHQtTExTZ3lKblRLU280U0xRUXloNA&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1Du1JEKrEAEipP7Js0Y2ddYCYTpez28da%2Fview%3Fusp%3Dshare_link&v=CjVGp5kGHxA
-or
-Go check his github repos : https://github.com/codewithsadee/grilli
+Download starter file here : https://drive.google.com/file/d/1Du1JEKrEAEipP7Js0Y2ddYCYTpez28da/view
 ============================================================================================  -->
