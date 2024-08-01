@@ -79,7 +79,7 @@ description.txt
 - [x] Section Event
 - [x] Footer
 - [x] backToTop
-- [ ] Publish release v1
+- [X] Publish Pre release V.0.9
 
 
 #### Part 2 | Responsive Website :
