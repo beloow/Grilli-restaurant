@@ -47,9 +47,12 @@
 ## About The Project
 
 
-🌟Grilli Restaurant🌟 
+🌟Grilli Restaurant - Votre destination gourmande🌟 
 
-description.txt
+Découvrez Grilli, où la gastronomie rencontre le design moderne. Mon site web, conçu avec soin, reflète l'élégance chic et contemporaine de notre restaurant. Que vous soyez un professionnel du web en quête d'inspiration ou un passionné de cuisine à la recherche de votre prochaine expérience culinaire, Grilli a quelque chose à offrir à chacun.
+
+
+Explorez notre menu raffiné, admirez notre galerie de photos, et laissez-vous tenter par l'ambiance unique de Grilli. Notre interface intuitive et épurée vous assure une navigation fluide, rendant chaque visite sur notre site aussi agréable que dans notre établissement.
 
 
 ### Built With
@@ -85,7 +88,7 @@ description.txt
 #### Part 2 | Responsive Website :
 
 - [ ] Responsive
-- [ ] Traduction FR
+- [ ] Traduction FR (In progress)
 - [ ] Review SEO
 - [ ] Publish release v2
 
