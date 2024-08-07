@@ -87,7 +87,7 @@ Explorez notre menu raffiné, admirez notre galerie de photos, et laissez-vous t
 
 #### Part 2 | Responsive Website :
 
-- [ ] Responsive (In progress)
+- [x] Responsive 
 - [ ] Traduction FR (In progress)
 - [ ] Review SEO
 - [ ] Publish release v1
