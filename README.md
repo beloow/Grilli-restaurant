@@ -87,10 +87,10 @@ Explorez notre menu raffiné, admirez notre galerie de photos, et laissez-vous t
 
 #### Part 2 | Responsive Website :
 
-- [ ] Responsive
+- [ ] Responsive (In progress)
 - [ ] Traduction FR (In progress)
 - [ ] Review SEO
-- [ ] Publish release v2
+- [ ] Publish release v1
 
 
 See the [open issues](https://github.com/beloow/Grilli-restaurant/issues) for a full list of proposed features (and known issues).
@@ -111,7 +111,6 @@ Ryan QUEVA - [Linkedin](https://www.linkedin.com/in/ryan-queva) - Contact@ryanqu
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [Logo .Com](https://logo.com/)
-* [codewithsadee](https://www.youtube.com/@codewithsadee)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
