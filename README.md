@@ -88,9 +88,9 @@ Explorez notre menu raffiné, admirez notre galerie de photos, et laissez-vous t
 #### Part 2 | Responsive Website :
 
 - [x] Responsive 
-- [ ] Traduction FR (In progress)
-- [ ] Review SEO
-- [ ] Publish release v1
+- [x] Traduction FR
+- [x] Review SEO (Theme colors, icon, social share)
+- [x] Publish release v1
 
 
 See the [open issues](https://github.com/beloow/Grilli-restaurant/issues) for a full list of proposed features (and known issues).
